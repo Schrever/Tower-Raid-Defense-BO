@@ -761,11 +761,11 @@ RectTransform:
   - {fileID: 1271422615}
   m_Father: {fileID: 1585826356}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 20, y: -20}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 20, y: 20}
   m_SizeDelta: {x: 75, y: 75}
-  m_Pivot: {x: 0, y: 1}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &682438684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,18 +1170,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WaveManager
   waves:
-  - duration: 15
-    easyEnemies: 5
-    hardEnemies: 0
-  - duration: 15
-    easyEnemies: 8
-    hardEnemies: 2
-  - duration: 15
-    easyEnemies: 5
-    hardEnemies: 5
+  - duration: 20
+    E1L1: 4
+    E2L1: 0
+    E3L1: 0
+  - duration: 20
+    E1L1: 4
+    E2L1: 2
+    E3L1: 0
+  - duration: 20
+    E1L1: 3
+    E2L1: 3
+    E3L1: 2
+  - duration: 20
+    E1L1: 2
+    E2L1: 2
+    E3L1: 4
+  - duration: 20
+    E1L1: 3
+    E2L1: 5
+    E3L1: 0
   startWaveButton: {fileID: 651653435}
-  easyEnemyPrefab: {fileID: 0}
-  hardEnemyPrefab: {fileID: 0}
+  E1L1Prefab: {fileID: 5303971361524783066, guid: aede94c6375abec43a8c46d64e25599f, type: 3}
+  E2L1Prefab: {fileID: 5355807947709510944, guid: 36de8bfc8e5075543b3563bd56451362, type: 3}
+  E3L1Prefab: {fileID: 6165602072186878033, guid: 38946f7f5eb1f9e4c8f76806d0b14861, type: 3}
   wayPoints:
   - {fileID: 83770062}
   - {fileID: 1608351285}

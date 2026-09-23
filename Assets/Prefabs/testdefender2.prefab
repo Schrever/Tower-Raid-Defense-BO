@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6106618145403058835}
   - component: {fileID: 3626602998208494780}
+  - component: {fileID: 8328075608268929434}
   m_Layer: 0
   m_Name: testdefender2
   m_TagString: Untagged
@@ -91,3 +92,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &8328075608268929434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390701761199622344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b324536209416c64dabb1493437ce6a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tower
+  range: 1
+  fireRate: 1
+  projectilePrefab: {fileID: 3121577068337600931, guid: 498db7e7f9a130446a74318a672e14f1, type: 3}
+  firePoint: {fileID: 6106618145403058835}

@@ -7,8 +7,9 @@ using Unity.Mathematics;
 public class WaveData
 {
     public float duration = 10f;
-    public int easyEnemies = 5;
-    public int hardEnemies = 2;
+    public int E1L1 = 5;
+    public int E2L1 = 2;
+    public int E3L1 = 1;
 }
 
 public class WaveManager : MonoBehaviour
@@ -16,8 +17,9 @@ public class WaveManager : MonoBehaviour
     public WaveData[] waves;
     public Button startWaveButton;
 
-    public GameObject easyEnemyPrefab;
-    public GameObject hardEnemyPrefab;
+    public GameObject E1L1Prefab;
+    public GameObject E2L1Prefab;
+    public GameObject E3L1Prefab;
 
     public Transform[] wayPoints;
 
@@ -44,16 +46,22 @@ public class WaveManager : MonoBehaviour
 
         WaveData wave = waves[currentWaveIndex];
 
-        for(int i = 0; i < wave.easyEnemies; i++)
+        for(int i = 0; i < wave.E1L1; i++)
         {
-            SpawnEnemy(easyEnemyPrefab);
-            yield return new WaitForSeconds((wave.duration / 3) / wave.easyEnemies);
+            SpawnEnemy(E1L1Prefab);
+            yield return new WaitForSeconds((wave.duration / 3) / wave.E1L1);
         }
 
-        for(int i = 0; i < wave.hardEnemies; i++)
+        for(int i = 0; i < wave.E2L1; i++)
         {
-            SpawnEnemy(hardEnemyPrefab);
-            yield return new WaitForSeconds((wave.duration / 3) / wave.hardEnemies);
+            SpawnEnemy(E2L1Prefab);
+            yield return new WaitForSeconds((wave.duration / 3) / wave.E2L1);
+        }
+
+        for(int i = 0; i < wave.E3L1; i++)
+        {
+            SpawnEnemy(E3L1Prefab);
+            yield return new WaitForSeconds((wave.duration / 3) / wave.E3L1);
         }
 
         yield return new WaitForSeconds(wave.duration / 3);

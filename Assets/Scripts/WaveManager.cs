@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using Unity.Mathematics;
+using TMPro;
 
 [System.Serializable]
 public class WaveData
@@ -22,6 +23,8 @@ public class WaveManager : MonoBehaviour
     public GameObject E3L1Prefab;
 
     public Transform[] wayPoints;
+
+    public TextMeshProUGUI WaveTxt;
 
     private int currentWaveIndex = 0;
     private bool waveRunning = false;
@@ -69,6 +72,7 @@ public class WaveManager : MonoBehaviour
         waveRunning = false;
         startWaveButton.interactable = true;
         currentWaveIndex++;
+        WaveTxt.text = (currentWaveIndex + 1).ToString();
     }
 
     void SpawnEnemy(GameObject prefab)

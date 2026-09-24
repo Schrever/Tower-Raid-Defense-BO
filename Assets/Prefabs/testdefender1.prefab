@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tower
   range: 3
-  fireRate: 1
+  fireRate: 2
   projectilePrefab: {fileID: 6150730781644366856, guid: 5a9e2b599beba4245b67381aeb1c8e9e, type: 3}
   firePoint: {fileID: 1176582666827559197}
   towerPrice: 50

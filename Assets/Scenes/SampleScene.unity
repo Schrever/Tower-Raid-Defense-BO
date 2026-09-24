@@ -2026,25 +2026,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WaveManager
   waves:
   - duration: 20
-    E1L1: 4
+    E1L1: 10
     E2L1: 0
     E3L1: 0
   - duration: 20
-    E1L1: 4
-    E2L1: 2
+    E1L1: 7
+    E2L1: 3
     E3L1: 0
   - duration: 20
-    E1L1: 3
-    E2L1: 3
+    E1L1: 5
+    E2L1: 5
     E3L1: 2
   - duration: 20
-    E1L1: 2
-    E2L1: 2
-    E3L1: 4
+    E1L1: 3
+    E2L1: 6
+    E3L1: 1
   - duration: 20
     E1L1: 3
-    E2L1: 5
-    E3L1: 0
+    E2L1: 8
+    E3L1: 2
   - duration: 20
     E1L1: 0
     E2L1: 0

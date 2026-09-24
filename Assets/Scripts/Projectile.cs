@@ -24,10 +24,11 @@ public class Projectile : MonoBehaviour
         if(Vector2.Distance(transform.position, target.position) < 0.15f)
         {
             Enemy e = target.GetComponent<Enemy>();
+            int enemyPrize = e.prize;
             e.health -= damage;
             if(e.health <= 0)
             {
-                CashManager.instance.UpdateCoins(1);
+                CashManager.instance.UpdateCoins(enemyPrize);
                 Destroy(target.gameObject);
             }
 

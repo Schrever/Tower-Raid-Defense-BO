@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
     public float speed = 2f;
     public int health = 1;
     public Transform[] waypoints;
+    public int prize = 10;
 
     public int currentWayPoint = 0;
     void Update()

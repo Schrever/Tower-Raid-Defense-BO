@@ -12,6 +12,10 @@ public class TowerSelectionUI : MonoBehaviour
             return;
         }
 
-        SelectedTowerPrefab = towerPrefab;
+
+        if(towerPrefab.GetComponent<Tower>().towerPrice <= CashManager.instance.coins)
+        {
+            SelectedTowerPrefab = towerPrefab;
+        }
     }
 }

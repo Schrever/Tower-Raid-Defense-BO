@@ -105,6 +105,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   speed: 3
-  health: 1
+  health: 10
   waypoints: []
   currentWayPoint: 0

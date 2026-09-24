@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6050049015023837332}
   - component: {fileID: 806043694269279463}
   m_Layer: 0
-  m_Name: SniperArrow
+  m_Name: SniperArrow 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,8 +82,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 48271d0e00649834ab302cd0b7e9103c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 99288fc4fcf307e41962dfbbf115a3f2, type: 3}
+  m_Color: {r: 1, g: 0.8962244, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -104,6 +104,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7970821cf8edd744da112385050d5cf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
-  speed: 10
-  damage: 50
+  speed: 50
+  damage: 75
   target: {fileID: 0}

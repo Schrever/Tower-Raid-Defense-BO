@@ -2255,43 +2255,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WaveManager
   waves:
-  - duration: 20
+  - duration: 10
     E1L1: 3
     E2L1: 0
     E3L1: 0
-  - duration: 20
+  - duration: 10
     E1L1: 4
     E2L1: 0
     E3L1: 1
-  - duration: 20
+  - duration: 10
     E1L1: 5
     E2L1: 1
     E3L1: 0
-  - duration: 20
+  - duration: 10
     E1L1: 4
     E2L1: 2
     E3L1: 2
-  - duration: 20
+  - duration: 10
     E1L1: 3
     E2L1: 4
     E3L1: 0
-  - duration: 20
+  - duration: 10
     E1L1: 5
     E2L1: 5
     E3L1: 2
-  - duration: 20
+  - duration: 10
     E1L1: 4
     E2L1: 6
     E3L1: 1
-  - duration: 20
+  - duration: 10
     E1L1: 3
     E2L1: 8
     E3L1: 0
-  - duration: 20
+  - duration: 10
     E1L1: 2
     E2L1: 10
     E3L1: 3
-  - duration: 20
+  - duration: 10
     E1L1: 0
     E2L1: 0
     E3L1: 50

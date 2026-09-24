@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6106618145403058835}
   - component: {fileID: 3626602998208494780}
   - component: {fileID: 8328075608268929434}
+  - component: {fileID: 1453919767579831673}
   m_Layer: 0
   m_Name: testdefender2
   m_TagString: Untagged
@@ -108,4 +109,58 @@ MonoBehaviour:
   fireRate: 0.75
   projectilePrefab: {fileID: 3121577068337600931, guid: 498db7e7f9a130446a74318a672e14f1, type: 3}
   firePoint: {fileID: 6106618145403058835}
+  upgradeStages:
+  - range: 1.5
+    fireRate: 0.75
+    sprite: {fileID: 21300000, guid: 005ab7e3567a0084dbba28abb2f5d6cb, type: 3}
+    price: 150
+    projectilePrefab: {fileID: 3121577068337600931, guid: b39dcb5931d8f1c409a0dac7f45f28e9, type: 3}
+  upgradeStage: 0
+  towerUpgradeUIPrefab: {fileID: 2387387068514180111, guid: b7a1f6b5dac1dd54b99423b054a22039, type: 3}
   towerPrice: 75
+--- !u!61 &1453919767579831673
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390701761199622344}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.3125}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.25}
+    oldSize: {x: 1.3, y: 1.25}
+    newSize: {x: 1.3, y: 1.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.3, y: 1.25}
+  m_EdgeRadius: 0

@@ -9,7 +9,7 @@ public class TowerPlacer : MonoBehaviour
     public Tilemap PlacementMap;
     public Tilemap NonPlaceableMap;
     public GameObject ghostPrefab;
-    private HashSet<Vector3Int> occupiedTiles = new HashSet<Vector3Int>();
+    public HashSet<Vector3Int> occupiedTiles = new HashSet<Vector3Int>();
     private GameObject ghostInstance;
 
     void Update()
@@ -62,14 +62,19 @@ public class TowerPlacer : MonoBehaviour
         Vector3Int cellPos = PlacementMap.WorldToCell(mouseWorldPos);
 
         if(!PlacementMap.HasTile(cellPos)) return;
-        if(occupiedTiles.Contains(cellPos)) return;
+        if(occupiedTiles.Contains(cellPos)) return; //als er al iets staat, dan checken of je die wilt verkopen ofzow? Zo ja, dan occupiedTiles.Remove(cellpos)
 
-        Instantiate(TowerSelectionUI.SelectedTowerPrefab, ghostInstance.transform.position, Quaternion.identity);
-
+        GameObject obj = Instantiate(TowerSelectionUI.SelectedTowerPrefab, ghostInstance.transform.position, Quaternion.identity);
+        obj.GetComponent<Tower>().cellPos = cellPos;
         CashManager.instance.UpdateCoins(-TowerSelectionUI.SelectedTowerPrefab.GetComponent<Tower>().towerPrice);
 
         TowerSelectionUI.SelectedTowerPrefab = null;
 
         occupiedTiles.Add(cellPos);
+        
     }
+
+    
+
+
 }

@@ -2259,412 +2259,46 @@ MonoBehaviour:
     E1L1: 3
     E2L1: 0
     E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 3
-    E2L1: 1
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 5
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
   - duration: 10
     E1L1: 4
-    E2L1: 1
+    E2L1: 0
     E3L1: 1
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 3
-    E2L1: 2
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 2
-    E2L1: 2
-    E3L1: 2
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 2
-    E2L1: 4
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 2
-    E2L1: 6
-    E3L1: 1
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 3
-    E2L1: 7
-    E3L1: 2
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
   - duration: 10
     E1L1: 5
-    E2L1: 10
-    E3L1: 5
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
+    E2L1: 1
+    E3L1: 0
   - duration: 10
-    E1L1: 1
-    E2L1: 3
+    E1L1: 4
+    E2L1: 2
+    E3L1: 2
+  - duration: 10
+    E1L1: 3
+    E2L1: 4
+    E3L1: 0
+  - duration: 10
+    E1L1: 5
+    E2L1: 5
+    E3L1: 2
+  - duration: 10
+    E1L1: 4
+    E2L1: 6
     E3L1: 1
-    E1L2: 3
-    E2L2: 0
-    E3L2: 1
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
+  - duration: 10
+    E1L1: 3
+    E2L1: 8
+    E3L1: 0
+  - duration: 10
+    E1L1: 2
+    E2L1: 10
+    E3L1: 3
   - duration: 10
     E1L1: 0
     E2L1: 0
-    E3L1: 0
-    E1L2: 3
-    E2L2: 2
-    E3L2: 0
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 5
-    E2L2: 3
-    E3L2: 1
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 5
-    E2L2: 2
-    E3L2: 1
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 2
-    E2L2: 4
-    E3L2: 0
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 3
-    E2L2: 5
-    E3L2: 2
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 4
-    E2L2: 6
-    E3L2: 0
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 3
-    E2L2: 7
-    E3L2: 3
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 5
-    E2L2: 10
-    E3L2: 0
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 20
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 15
-    E3L2: 5
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 3
-    E3L2: 0
-    E1L3: 3
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 5
-    E2L3: 2
-    E3L3: 0
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 1
-    E2L3: 4
-    E3L3: 2
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 2
-    E2L3: 6
-    E3L3: 2
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 3
-    E2L3: 7
-    E3L3: 0
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 4
-    E2L3: 8
-    E3L3: 3
-  - duration: 15
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 5
-    E2L3: 10
-    E3L3: 3
-  - duration: 15
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 10
-    E2L3: 10
-    E3L3: 0
-  - duration: 15
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 15
-    E2L3: 25
-    E3L3: 5
-  - duration: 20
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 25
-    E2L3: 50
-    E3L3: 10
-  - duration: 20
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 50
-    E2L3: 25
-    E3L3: 0
-  - duration: 20
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 75
-    E2L3: 40
-    E3L3: 15
-  - duration: 20
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 60
-    E2L3: 60
-    E3L3: 20
-  - duration: 20
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 75
-    E2L3: 75
-    E3L3: 0
-  - duration: 20
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 60
-    E2L3: 80
-    E3L3: 20
-  - duration: 20
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 75
-    E2L3: 100
-    E3L3: 0
-  - duration: 20
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 100
-    E2L3: 100
-    E3L3: 25
-  - duration: 20
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 100
-    E2L3: 125
-    E3L3: 0
-  - duration: 20
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 125
-    E2L3: 125
-    E3L3: 50
-  - duration: 20
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 150
-    E2L3: 150
-    E3L3: 75
+    E3L1: 50
   startWaveButton: {fileID: 651653435}
   E1L1Prefab: {fileID: 5303971361524783066, guid: aede94c6375abec43a8c46d64e25599f, type: 3}
   E2L1Prefab: {fileID: 5355807947709510944, guid: 36de8bfc8e5075543b3563bd56451362, type: 3}
   E3L1Prefab: {fileID: 6165602072186878033, guid: 38946f7f5eb1f9e4c8f76806d0b14861, type: 3}
-  E1L2Prefab: {fileID: 5303971361524783066, guid: 0f174a4be09f3cd44b56e1f582870bdc, type: 3}
-  E2L2Prefab: {fileID: 5355807947709510944, guid: 61ec0f0faf41b5346a253dd382f82f61, type: 3}
-  E3L2Prefab: {fileID: 6165602072186878033, guid: 2cdfbb3b121318c42afe910f657172b1, type: 3}
-  E1L3Prefab: {fileID: 5303971361524783066, guid: f86a2b558146c2b409d132af636476e4, type: 3}
-  E2L3Prefab: {fileID: 5355807947709510944, guid: f5bf816581ea1e248819eb46ee410dc8, type: 3}
-  E3L3Prefab: {fileID: 6165602072186878033, guid: 94feb03230d0379499f903f97d917356, type: 3}
   wayPoints:
   - {fileID: 83770062}
   - {fileID: 1608351285}
@@ -2680,7 +2314,6 @@ MonoBehaviour:
   - {fileID: 458360018}
   - {fileID: 1920367384}
   WaveTxt: {fileID: 1921918758}
-  currentWaveIndex: 0
 --- !u!4 &962271435
 Transform:
   m_ObjectHideFlags: 0
@@ -7310,7 +6943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fabb47856b5aef542a10a1db8b7c4bf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CashManager
-  coins: 150
+  coins: 125
   coinTxt: {fileID: 150290933}
 --- !u!1 &1902576150
 GameObject:
@@ -7456,7 +7089,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -105,6 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b324536209416c64dabb1493437ce6a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tower
+  TowerName: Rifler
   range: 3
   fireRate: 2
   projectilePrefab: {fileID: 6150730781644366856, guid: 5a9e2b599beba4245b67381aeb1c8e9e, type: 3}
@@ -114,10 +115,36 @@ MonoBehaviour:
     fireRate: 2
     sprite: {fileID: 21300000, guid: 80d15b5df74024d4290ae4a5eb76f9d5, type: 3}
     price: 100
+    sellprice: 75
     projectilePrefab: {fileID: 6150730781644366856, guid: 1eb26ff3b0de15a4fa1327d86a45a59e, type: 3}
+    visibleDmg: 7
+  - range: 5
+    fireRate: 4
+    sprite: {fileID: 21300000, guid: 7df783537f388b14f9141724c63ec4da, type: 3}
+    price: 300
+    sellprice: 200
+    projectilePrefab: {fileID: 6150730781644366856, guid: 5be4e6d97fb64bc45bbb6c7d6cfb1f58, type: 3}
+    visibleDmg: 10
+  - range: 5
+    fireRate: 4
+    sprite: {fileID: 21300000, guid: 8f94c98a6baca8a42b55bb630fa55b15, type: 3}
+    price: 600
+    sellprice: 400
+    projectilePrefab: {fileID: 6150730781644366856, guid: 6cd0b01b7342c2945930dad1c132233f, type: 3}
+    visibleDmg: 20
+  - range: 5
+    fireRate: 4
+    sprite: {fileID: 21300000, guid: 8f94c98a6baca8a42b55bb630fa55b15, type: 3}
+    price: 2147483647
+    sellprice: 400
+    projectilePrefab: {fileID: 6150730781644366856, guid: 6cd0b01b7342c2945930dad1c132233f, type: 3}
+    visibleDmg: 20
   upgradeStage: 0
   towerUpgradeUIPrefab: {fileID: 2387387068514180111, guid: b7a1f6b5dac1dd54b99423b054a22039, type: 3}
+  cellPos: {x: 0, y: 0, z: 0}
   towerPrice: 50
+  sellprice1: 25
+  visibleDmg1: 5
 --- !u!61 &4053751602249562878
 BoxCollider2D:
   m_ObjectHideFlags: 0

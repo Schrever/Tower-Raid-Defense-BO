@@ -40,6 +40,8 @@ public class WaveManager : MonoBehaviour
 
     public int currentWaveIndex = 0;
     private bool waveRunning = false;
+    public EnemyBase enemyBase;
+    
 
     void Start()
     {
@@ -52,6 +54,11 @@ public class WaveManager : MonoBehaviour
         if (currentWaveIndex >= waves.Length) return;
 
         StartCoroutine(RunWave());
+
+        if(currentWaveIndex > 39)
+        {
+            Flipscript();
+        }
     }
 
     IEnumerator RunWave()
@@ -128,6 +135,18 @@ public class WaveManager : MonoBehaviour
         GameObject e = Instantiate(prefab, wayPoints[0].position, Quaternion.identity);
         Enemy enemy = e.GetComponent<Enemy>();
         enemy.waypoints = wayPoints;
+    }
+
+    void Flipscript()
+    {
+        enemyBase.FobChange();
+        WaveTxt.text = "ATTACK";
+
+    }
+
+    void Update()
+    {
+        
     }
 
 }

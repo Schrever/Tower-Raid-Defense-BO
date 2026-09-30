@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: c43661592090c584dbb1e7c132d54d12
+guid: ec6944a3df5777140bfd4c68aa66841a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6310030888818702624
-    second: RUSTFOBPIXELART_0
+      213: 4007742545420187898
+    second: RUSTFOBPIXELART2_0
+  - first:
+      213: 2786177489393620927
+    second: RUSTFOBPIXELART2_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RUSTFOBPIXELART_0
+      name: RUSTFOBPIXELART2_0
       rect:
         serializedVersion: 2
         x: 2
         y: 1
         width: 147
-        height: 158
+        height: 162
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 029f7c159abb19750800000000000000
-      internalID: 6310030888818702624
+      spriteID: af87df27c9c5e9730800000000000000
+      internalID: 4007742545420187898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RUSTFOBPIXELART2_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 16
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb71f703aad7aa620800000000000000
+      internalID: 2786177489393620927
       vertices: []
       indices: 
       edges: []
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RUSTFOBPIXELART_0: 6310030888818702624
+      RUSTFOBPIXELART2_0: 4007742545420187898
+      RUSTFOBPIXELART2_1: 2786177489393620927
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

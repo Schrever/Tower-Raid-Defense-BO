@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c43661592090c584dbb1e7c132d54d12
+guid: 99fb4aea9bef2ab4f913d5a47810593b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6310030888818702624
-    second: RUSTFOBPIXELART_0
+      213: 1483637222103461714
+    second: counterenemy2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,8 +49,8 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.25}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RUSTFOBPIXELART_0
+      name: counterenemy2_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1
-        width: 147
-        height: 158
+        x: 0
+        y: 0
+        width: 108
+        height: 135
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 029f7c159abb19750800000000000000
-      internalID: 6310030888818702624
+      spriteID: 25f260f5130f69410800000000000000
+      internalID: 1483637222103461714
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RUSTFOBPIXELART_0: 6310030888818702624
+      counterenemy2_0: 1483637222103461714
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

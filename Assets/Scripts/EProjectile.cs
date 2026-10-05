@@ -1,0 +1,38 @@
+using Unity.Mathematics;
+using UnityEngine;
+
+public class EProjectile : MonoBehaviour
+{
+    public float speed = 8f;
+    public int damage = 1;
+    public Transform target;
+
+    void Update()
+    {
+        if(target == null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Vector3 dir = (target.position - transform.position).normalized;
+        transform.position += dir * speed * Time.deltaTime;
+
+        float angle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle -90);
+
+        if(Vector2.Distance(transform.position, target.position) < 0.15f)
+        {
+            CounterEnemy e = target.GetComponent<CounterEnemy>();
+            int enemyPrize = e.prize;
+            e.health -= damage;
+            if(e.health <= 0)
+            {
+                CashManager.instance.UpdateCoins(enemyPrize);
+                Destroy(target.gameObject);
+            }
+
+            Destroy(gameObject);
+        }
+    }
+}

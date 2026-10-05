@@ -104,8 +104,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ff0c95e2548872408f6503243c0e794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CounterEnemy
-  speed: 2
-  health: 1
+  speed: 1
+  health: 50
   waypoints: []
-  prize: 10
+  prize: 750
+  Price: 500
   currentWayPoint: 0

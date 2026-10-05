@@ -41,6 +41,8 @@ public class WaveManager : MonoBehaviour
     public int currentWaveIndex = 0;
     private bool waveRunning = false;
     public EnemyBase enemyBase;
+    public GameObject Buttons1;
+    public GameObject Buttons2;
     
 
     void Start()
@@ -141,6 +143,8 @@ public class WaveManager : MonoBehaviour
     {
         enemyBase.FobChange();
         WaveTxt.text = "ATTACK";
+        Buttons1.SetActive(false);
+        Buttons2.SetActive(true);
 
     }
 

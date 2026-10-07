@@ -107,33 +107,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tower
   TowerName: Ranger
   range: 5
-  fireRate: 0.5
+  fireRate: 0.4
   projectilePrefab: {fileID: 6150730781644366856, guid: 2143fba9e331bd5458894d88c0cb7aec, type: 3}
   firePoint: {fileID: 1176582666827559197}
   upgradeStages:
   - range: 7.5
-    fireRate: 0.5
+    fireRate: 0.4
     sprite: {fileID: 21300000, guid: d95b11ddcd40cae46b1fee395963f23e, type: 3}
     price: 300
     sellprice: 50
     projectilePrefab: {fileID: 6150730781644366856, guid: 54a221864412ff04eb13dd6de0142263, type: 3}
     visibleDmg: 40
   - range: 10
-    fireRate: 0.5
+    fireRate: 0.4
     sprite: {fileID: 21300000, guid: b6e9ae3ed234687448b870bf47969bde, type: 3}
     price: 1500
     sellprice: 150
     projectilePrefab: {fileID: 6150730781644366856, guid: d8872fa6d2949db4fb384f015b273fdd, type: 3}
     visibleDmg: 80
   - range: 25
-    fireRate: 0.5
+    fireRate: 0.4
     sprite: {fileID: 21300000, guid: e3654a52c28832f4e95ef34e284aadc6, type: 3}
     price: 5000
     sellprice: 750
     projectilePrefab: {fileID: 6150730781644366856, guid: f6b1e36a546ff0544b9c757fc42e5627, type: 3}
     visibleDmg: 160
   - range: 25
-    fireRate: 0.5
+    fireRate: 0.3
     sprite: {fileID: 21300000, guid: e3654a52c28832f4e95ef34e284aadc6, type: 3}
     price: 2147483647
     sellprice: 2500

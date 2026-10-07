@@ -126,7 +126,7 @@ MonoBehaviour:
     projectilePrefab: {fileID: 3121577068337600931, guid: a0aee8d38e996f6428f1f0dadc4f2109, type: 3}
     visibleDmg: 30
   - range: 4
-    fireRate: 1
+    fireRate: 1.5
     sprite: {fileID: 21300000, guid: 96d41b7bf7b26f04ea099eb350c59f0c, type: 3}
     price: 2000
     sellprice: 350

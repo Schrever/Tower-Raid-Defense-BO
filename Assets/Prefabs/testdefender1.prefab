@@ -107,12 +107,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tower
   TowerName: Rifler
   range: 3
-  fireRate: 2
+  fireRate: 3
   projectilePrefab: {fileID: 6150730781644366856, guid: 5a9e2b599beba4245b67381aeb1c8e9e, type: 3}
   firePoint: {fileID: 1176582666827559197}
   upgradeStages:
   - range: 3
-    fireRate: 2
+    fireRate: 3
     sprite: {fileID: 21300000, guid: 80d15b5df74024d4290ae4a5eb76f9d5, type: 3}
     price: 150
     sellprice: 25
@@ -126,7 +126,7 @@ MonoBehaviour:
     projectilePrefab: {fileID: 6150730781644366856, guid: 5be4e6d97fb64bc45bbb6c7d6cfb1f58, type: 3}
     visibleDmg: 10
   - range: 5
-    fireRate: 4
+    fireRate: 5
     sprite: {fileID: 21300000, guid: 8f94c98a6baca8a42b55bb630fa55b15, type: 3}
     price: 3000
     sellprice: 350

@@ -9,9 +9,14 @@ public class EnemyBase : MonoBehaviour
 
     public float range = 3f;
     public float fireRate = 1f;
+    public float fireRate2 = 1f;
+
     public GameObject projectilePrefab;
     public Transform firePoint;
     private float fireCooldown = 0f;
+    public GameObject projectilePrefab2;
+    public Transform firePoint2;
+    public Transform firePoint3;
 
 
     public void FobChange()
@@ -35,6 +40,10 @@ public class EnemyBase : MonoBehaviour
         {
             Shoot(target);
             fireCooldown = 1f / fireRate;
+            Shoot2(target);
+            fireCooldown = 1f / fireRate2;
+            Shoot3(target);
+            fireCooldown = 1f / fireRate2;
         }
     }
 
@@ -65,6 +74,20 @@ public class EnemyBase : MonoBehaviour
     void Shoot(CounterEnemy target)
     {
         GameObject p = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
+        EProjectile pr = p.GetComponent<EProjectile>();
+        pr.target = target.transform;
+    }
+
+    void Shoot2(CounterEnemy target)
+    {
+        GameObject p = Instantiate(projectilePrefab2, firePoint2.position, Quaternion.identity);
+        EProjectile pr = p.GetComponent<EProjectile>();
+        pr.target = target.transform;
+    }
+
+    void Shoot3(CounterEnemy target)
+    {
+        GameObject p = Instantiate(projectilePrefab2, firePoint3.position, Quaternion.identity);
         EProjectile pr = p.GetComponent<EProjectile>();
         pr.target = target.transform;
     }

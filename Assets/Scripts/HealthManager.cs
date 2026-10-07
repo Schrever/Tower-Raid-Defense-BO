@@ -12,6 +12,8 @@ public class HealthManager : MonoBehaviour
     public TextMeshProUGUI EHealthTxt;
     public GameObject Health;
     public GameObject EHealth;
+    public GameObject GameOverUI;
+    public TextMeshProUGUI GameOverUIText;
 
     void Awake()
     {
@@ -26,7 +28,8 @@ public class HealthManager : MonoBehaviour
 
         if(health <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            GameOverUI.SetActive(true);
+            GameOverUIText.text = "You lose";
         }
     }
 
@@ -38,7 +41,8 @@ public class HealthManager : MonoBehaviour
 
         if(Ehealth <= 0)
         {
-            Debug.Log("You win");
+            GameOverUI.SetActive(true);
+            GameOverUIText.text = "You win";
         }
     }
 
@@ -47,4 +51,6 @@ public class HealthManager : MonoBehaviour
         Health.SetActive(false);
         EHealth.SetActive(true);
     }
+
+    
 }

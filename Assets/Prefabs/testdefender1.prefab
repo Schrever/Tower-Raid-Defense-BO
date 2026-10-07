@@ -114,29 +114,29 @@ MonoBehaviour:
   - range: 3
     fireRate: 2
     sprite: {fileID: 21300000, guid: 80d15b5df74024d4290ae4a5eb76f9d5, type: 3}
-    price: 100
-    sellprice: 75
+    price: 150
+    sellprice: 25
     projectilePrefab: {fileID: 6150730781644366856, guid: 1eb26ff3b0de15a4fa1327d86a45a59e, type: 3}
     visibleDmg: 7
   - range: 5
     fireRate: 4
     sprite: {fileID: 21300000, guid: 7df783537f388b14f9141724c63ec4da, type: 3}
-    price: 300
-    sellprice: 200
+    price: 750
+    sellprice: 75
     projectilePrefab: {fileID: 6150730781644366856, guid: 5be4e6d97fb64bc45bbb6c7d6cfb1f58, type: 3}
     visibleDmg: 10
   - range: 5
     fireRate: 4
     sprite: {fileID: 21300000, guid: 8f94c98a6baca8a42b55bb630fa55b15, type: 3}
-    price: 600
-    sellprice: 400
+    price: 3000
+    sellprice: 350
     projectilePrefab: {fileID: 6150730781644366856, guid: 6cd0b01b7342c2945930dad1c132233f, type: 3}
     visibleDmg: 20
   - range: 5
     fireRate: 4
     sprite: {fileID: 21300000, guid: 8f94c98a6baca8a42b55bb630fa55b15, type: 3}
     price: 2147483647
-    sellprice: 400
+    sellprice: 1500
     projectilePrefab: {fileID: 6150730781644366856, guid: 6cd0b01b7342c2945930dad1c132233f, type: 3}
     visibleDmg: 20
   upgradeStage: 0

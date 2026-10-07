@@ -3100,7 +3100,7 @@ MonoBehaviour:
     E1L1: 0
     E2L1: 0
     E3L1: 0
-    E1L2: 3
+    E1L2: 5
     E2L2: 2
     E3L2: 0
     E1L3: 0
@@ -3111,36 +3111,6 @@ MonoBehaviour:
     E2L1: 0
     E3L1: 0
     E1L2: 5
-    E2L2: 3
-    E3L2: 1
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 5
-    E2L2: 2
-    E3L2: 1
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 2
-    E2L2: 4
-    E3L2: 0
-    E1L3: 0
-    E2L3: 0
-    E3L3: 0
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 3
     E2L2: 5
     E3L2: 2
     E1L3: 0
@@ -3150,8 +3120,8 @@ MonoBehaviour:
     E1L1: 0
     E2L1: 0
     E3L1: 0
-    E1L2: 4
-    E2L2: 6
+    E1L2: 7
+    E2L2: 5
     E3L2: 0
     E1L3: 0
     E2L3: 0
@@ -3160,8 +3130,38 @@ MonoBehaviour:
     E1L1: 0
     E2L1: 0
     E3L1: 0
-    E1L2: 3
-    E2L2: 7
+    E1L2: 6
+    E2L2: 9
+    E3L2: 0
+    E1L3: 0
+    E2L3: 0
+    E3L3: 0
+  - duration: 10
+    E1L1: 0
+    E2L1: 0
+    E3L1: 0
+    E1L2: 6
+    E2L2: 12
+    E3L2: 4
+    E1L3: 0
+    E2L3: 0
+    E3L3: 0
+  - duration: 10
+    E1L1: 0
+    E2L1: 0
+    E3L1: 0
+    E1L2: 8
+    E2L2: 16
+    E3L2: 0
+    E1L3: 0
+    E2L3: 0
+    E3L3: 0
+  - duration: 10
+    E1L1: 0
+    E2L1: 0
+    E3L1: 0
+    E1L2: 10
+    E2L2: 20
     E3L2: 3
     E1L3: 0
     E2L3: 0
@@ -3170,9 +3170,9 @@ MonoBehaviour:
     E1L1: 0
     E2L1: 0
     E3L1: 0
-    E1L2: 5
-    E2L2: 10
-    E3L2: 0
+    E1L2: 14
+    E2L2: 22
+    E3L2: 8
     E1L3: 0
     E2L3: 0
     E3L3: 0
@@ -3180,9 +3180,9 @@ MonoBehaviour:
     E1L1: 0
     E2L1: 0
     E3L1: 0
-    E1L2: 0
-    E2L2: 15
-    E3L2: 5
+    E1L2: 30
+    E2L2: 0
+    E3L2: 0
     E1L3: 0
     E2L3: 0
     E3L3: 0
@@ -3191,9 +3191,9 @@ MonoBehaviour:
     E2L1: 0
     E3L1: 0
     E1L2: 0
-    E2L2: 3
-    E3L2: 0
-    E1L3: 3
+    E2L2: 0
+    E3L2: 5
+    E1L3: 5
     E2L3: 0
     E3L3: 0
   - duration: 10
@@ -3203,7 +3203,7 @@ MonoBehaviour:
     E1L2: 0
     E2L2: 0
     E3L2: 0
-    E1L3: 5
+    E1L3: 6
     E2L3: 2
     E3L3: 0
   - duration: 10
@@ -3213,7 +3213,7 @@ MonoBehaviour:
     E1L2: 0
     E2L2: 0
     E3L2: 0
-    E1L3: 1
+    E1L3: 7
     E2L3: 4
     E3L3: 2
   - duration: 10
@@ -3223,30 +3223,10 @@ MonoBehaviour:
     E1L2: 0
     E2L2: 0
     E3L2: 0
-    E1L3: 2
-    E2L3: 6
-    E3L3: 2
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 3
-    E2L3: 7
-    E3L3: 0
-  - duration: 10
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
     E1L3: 4
     E2L3: 8
-    E3L3: 3
-  - duration: 15
+    E3L3: 0
+  - duration: 10
     E1L1: 0
     E2L1: 0
     E3L1: 0
@@ -3256,6 +3236,16 @@ MonoBehaviour:
     E1L3: 5
     E2L3: 10
     E3L3: 3
+  - duration: 10
+    E1L1: 0
+    E2L1: 0
+    E3L1: 0
+    E1L2: 0
+    E2L2: 0
+    E3L2: 0
+    E1L3: 8
+    E2L3: 14
+    E3L3: 0
   - duration: 15
     E1L1: 0
     E2L1: 0
@@ -3264,7 +3254,17 @@ MonoBehaviour:
     E2L2: 0
     E3L2: 0
     E1L3: 10
-    E2L3: 10
+    E2L3: 16
+    E3L3: 3
+  - duration: 15
+    E1L1: 0
+    E2L1: 0
+    E3L1: 0
+    E1L2: 0
+    E2L2: 0
+    E3L2: 0
+    E1L3: 15
+    E2L3: 15
     E3L3: 0
   - duration: 15
     E1L1: 0
@@ -3274,7 +3274,7 @@ MonoBehaviour:
     E2L2: 0
     E3L2: 0
     E1L3: 15
-    E2L3: 25
+    E2L3: 20
     E3L3: 5
   - duration: 20
     E1L1: 0
@@ -3284,16 +3284,6 @@ MonoBehaviour:
     E2L2: 0
     E3L2: 0
     E1L3: 25
-    E2L3: 50
-    E3L3: 10
-  - duration: 20
-    E1L1: 0
-    E2L1: 0
-    E3L1: 0
-    E1L2: 0
-    E2L2: 0
-    E3L2: 0
-    E1L3: 50
     E2L3: 25
     E3L3: 0
   - duration: 20
@@ -3303,7 +3293,17 @@ MonoBehaviour:
     E1L2: 0
     E2L2: 0
     E3L2: 0
-    E1L3: 75
+    E1L3: 10
+    E2L3: 30
+    E3L3: 5
+  - duration: 20
+    E1L1: 0
+    E2L1: 0
+    E3L1: 0
+    E1L2: 0
+    E2L2: 0
+    E3L2: 0
+    E1L3: 20
     E2L3: 40
     E3L3: 15
   - duration: 20

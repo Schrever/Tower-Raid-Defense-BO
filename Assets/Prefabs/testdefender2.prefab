@@ -107,36 +107,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tower
   TowerName: Shotgunner
   range: 1
-  fireRate: 0.75
+  fireRate: 1
   projectilePrefab: {fileID: 3121577068337600931, guid: 498db7e7f9a130446a74318a672e14f1, type: 3}
   firePoint: {fileID: 6106618145403058835}
   upgradeStages:
   - range: 1.5
-    fireRate: 0.75
+    fireRate: 1
     sprite: {fileID: 21300000, guid: 005ab7e3567a0084dbba28abb2f5d6cb, type: 3}
     price: 150
-    sellprice: 100
+    sellprice: 35
     projectilePrefab: {fileID: 3121577068337600931, guid: b39dcb5931d8f1c409a0dac7f45f28e9, type: 3}
-    visibleDmg: 30
+    visibleDmg: 15
   - range: 2
-    fireRate: 0.75
+    fireRate: 1
     sprite: {fileID: 21300000, guid: 32c2a04108d2cc04389cda85066057d4, type: 3}
-    price: 300
-    sellprice: 200
+    price: 750
+    sellprice: 75
     projectilePrefab: {fileID: 3121577068337600931, guid: a0aee8d38e996f6428f1f0dadc4f2109, type: 3}
+    visibleDmg: 30
+  - range: 4
+    fireRate: 1
+    sprite: {fileID: 21300000, guid: 96d41b7bf7b26f04ea099eb350c59f0c, type: 3}
+    price: 2000
+    sellprice: 350
+    projectilePrefab: {fileID: 3121577068337600931, guid: b2981b79a49c42a4fb842c652e9e808a, type: 3}
     visibleDmg: 50
   - range: 4
     fireRate: 1
     sprite: {fileID: 21300000, guid: 96d41b7bf7b26f04ea099eb350c59f0c, type: 3}
-    price: 600
-    sellprice: 450
-    projectilePrefab: {fileID: 3121577068337600931, guid: b2981b79a49c42a4fb842c652e9e808a, type: 3}
-    visibleDmg: 100
-  - range: 4
-    fireRate: 1
-    sprite: {fileID: 21300000, guid: 96d41b7bf7b26f04ea099eb350c59f0c, type: 3}
     price: 2147483647
-    sellprice: 450
+    sellprice: 1000
     projectilePrefab: {fileID: 3121577068337600931, guid: b2981b79a49c42a4fb842c652e9e808a, type: 3}
     visibleDmg: 100
   upgradeStage: 0
@@ -144,7 +144,7 @@ MonoBehaviour:
   cellPos: {x: 0, y: 0, z: 0}
   towerPrice: 75
   sellprice1: 35
-  visibleDmg1: 20
+  visibleDmg1: 10
 --- !u!61 &1453919767579831673
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -105,5 +105,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EProjectile
   speed: 25
-  damage: 50
+  damage: 25
   target: {fileID: 0}

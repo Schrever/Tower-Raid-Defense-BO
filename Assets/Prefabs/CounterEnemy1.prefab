@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CounterEnemy
   speed: 1.5
-  health: 100
+  health: 1000
   waypoints: []
   prize: 750
   Price: 500

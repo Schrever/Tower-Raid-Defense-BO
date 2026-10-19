@@ -114,22 +114,22 @@ MonoBehaviour:
   - range: 3
     fireRate: 3
     sprite: {fileID: 21300000, guid: 80d15b5df74024d4290ae4a5eb76f9d5, type: 3}
-    price: 150
-    sellprice: 25
+    price: 200
+    sellprice: 50
     projectilePrefab: {fileID: 6150730781644366856, guid: 1eb26ff3b0de15a4fa1327d86a45a59e, type: 3}
     visibleDmg: 7
   - range: 5
     fireRate: 4
     sprite: {fileID: 21300000, guid: 7df783537f388b14f9141724c63ec4da, type: 3}
-    price: 750
-    sellprice: 75
+    price: 1000
+    sellprice: 100
     projectilePrefab: {fileID: 6150730781644366856, guid: 5be4e6d97fb64bc45bbb6c7d6cfb1f58, type: 3}
     visibleDmg: 10
   - range: 5
     fireRate: 5
     sprite: {fileID: 21300000, guid: 8f94c98a6baca8a42b55bb630fa55b15, type: 3}
     price: 3000
-    sellprice: 350
+    sellprice: 500
     projectilePrefab: {fileID: 6150730781644366856, guid: 6cd0b01b7342c2945930dad1c132233f, type: 3}
     visibleDmg: 20
   - range: 5
@@ -142,8 +142,8 @@ MonoBehaviour:
   upgradeStage: 0
   towerUpgradeUIPrefab: {fileID: 2387387068514180111, guid: b7a1f6b5dac1dd54b99423b054a22039, type: 3}
   cellPos: {x: 0, y: 0, z: 0}
-  towerPrice: 50
-  sellprice1: 25
+  towerPrice: 100
+  sellprice1: 50
   visibleDmg1: 5
 --- !u!61 &4053751602249562878
 BoxCollider2D:

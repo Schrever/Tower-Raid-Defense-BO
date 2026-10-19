@@ -43,6 +43,7 @@ public class WaveManager : MonoBehaviour
     public EnemyBase enemyBase;
     public GameObject Buttons1;
     public GameObject Buttons2;
+    public HelperClose helperClose;
     
 
     void Start()
@@ -59,8 +60,36 @@ public class WaveManager : MonoBehaviour
 
         if(currentWaveIndex > 39)
         {
+            helperClose.UpdateText("Now its your turn, buy COUNTER ENEMIES to attack the enemy base!");
+            helperClose.Open();
             Flipscript();
         }
+
+        if(currentWaveIndex == 3)
+        {
+            helperClose.UpdateText("Watch out for the grubs, they can only be shot by sniper towers!");
+            helperClose.Open();
+        }
+
+        if(currentWaveIndex == 9)
+        {
+            helperClose.UpdateText("The enemy is advancing, remember to upgrade your towers!");
+            helperClose.Open();
+        }
+
+        if(currentWaveIndex == 29)
+        {
+            helperClose.UpdateText("The enemy is running out of kits!");
+            helperClose.Open();
+        }
+
+        if(currentWaveIndex == 19)
+        {
+            helperClose.UpdateText("The enemy is advancing again, upgrade your towers!");
+            helperClose.Open();
+        }
+
+        
     }
 
     IEnumerator RunWave()

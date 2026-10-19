@@ -14,6 +14,7 @@ public class EnemyBase : MonoBehaviour
     public GameObject projectilePrefab;
     public Transform firePoint;
     private float fireCooldown = 0f;
+    private float fireCooldown2 = 0f;
     public GameObject projectilePrefab2;
     public Transform firePoint2;
     public Transform firePoint3;
@@ -33,6 +34,8 @@ public class EnemyBase : MonoBehaviour
     void Update()
     {
         fireCooldown -= Time.deltaTime;
+        fireCooldown2 -= Time.deltaTime;
+        
 
         CounterEnemy target = FindBestTarget();
 
@@ -40,10 +43,14 @@ public class EnemyBase : MonoBehaviour
         {
             Shoot(target);
             fireCooldown = 1f / fireRate;
+        }
+
+        if (target != null && fireCooldown2 <= 0)
+        {
             Shoot2(target);
-            fireCooldown = 1f / fireRate2;
+            fireCooldown2 = 1f / fireRate2;
             Shoot3(target);
-            fireCooldown = 1f / fireRate2;
+            fireCooldown2 = 1f / fireRate2;
         }
     }
 
